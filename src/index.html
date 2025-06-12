@@ -1,44 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Diego De Avila</title>
+    
+    <meta name="description" content="CV de Diego De Avila - Desarrollador Frontend Junior con experiencia en HTML, CSS y JavaScript">
+    <meta name="keywords" content="Desarrollador Frontend, HTML, CSS, JavaScript, CV, Diego De Avila">
+    <meta name="author" content="Diego De Avila">
+    
+    <meta property="og:title" content="CV - Diego De Avila | Desarrollador Frontend">
+    <meta property="og:description" content="CV profesional de Diego De Avila, Desarrollador Frontend Junior">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <title>CV - Diego De Avila | Desarrollador Frontend</title>
     <style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f7f9fc;
+        color: #333;
+        margin: 0;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        border-radius: 10px;
+    }
+
+    .header h1 {
+        margin-bottom: 5px;
+    }
+
+    .header p {
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+
+    address {
+        font-style: normal;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        margin-top: 30px;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 5px;
+    }
+
+    ul {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+        .container {
+            padding: 20px;
+        }
         .green-300 {
             color: rgb(10, 186, 10);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
+    <main class="container">
+        <header class="header">
             <h1>Diego De Avila</h1>
             <p class="green-300">Junior Frontend Developer</p>
-            <p>Cra 49 #30c50 <br>Cartagena <br>3046183211 <br>deavila1430@gmail.com</p>
-        </div>
-        <div class="content">
-            <div class="section">
-                <p class="green-300">Skills</p>
-                <p>HTML, CSS, JavaScript, Responsive Web Design.</p>
-            </div>
-        </div>
-        <div class="section">
-            <p class="green-300">Education</p>
-            <p>School name, Location - degree, date <br>Month 20xx to Month 20xx <br>List of exciting things you did at university</p>
-        </div>
-        <div class="section">
-            <p class="green-300">Experience</p>
-            <p>Company name, Location - degree, date <br>Month 20xx to Month 20xx</p>
-            <ul>
-                <li>List of achievements</li>
-                <li>List of achievements</li>
-                <li>List of achievements</li>
-            </ul>
-        </div>
-        <div class="section">
-            <p class="green-300">Across the internet</p>
-        </div>
-    </div>
+            <address>
+                <p>Cra 49 #30c50 <br>Cartagena - Colombia <br>3046183211 <br>deavila1430@gmail.com</p>
+            </address>
+        </header>
+        
+        <section class="content">
+            <article class="section">
+                <h2 class="green-300">Skills</h2>
+                <p>HTML, CSS, JavaScript, Git, GitHub, Responsive Web Design.</p>
+            </article>
+            
+            <article class="section">
+                <h2 class="green-300">Education</h2>
+                <p>SENA (Servicio Nacional de Aprendizaje),Tecnologo en Analisis y Desarrollo de Software, 2023-2025</p>
+            </article>
+            
+            <article class="section">
+                <h2 class="green-300">Experience</h2>
+                <p>Linexperts consultoria empresarial, Bogota - Aprendiz, 14/03/2025 to 14/09/2025 </p>
+                <ul>
+                    <li>Desarrollo de aplicaciones web</li>
+                    <li>Mantenimiento de aplicaciones web</li>
+                    <li>Refactorizacion de codigo</li>
+                    <li>Manejo de bases de datos</li>
+                    <li>Manejo de herramientas de desarrollo</li>
+                </ul>
+            </article>
+            
+            <article class="section">
+                <h2 class="green-300">Across the internet</h2>
+                <ul>
+                    <li><a href="https://github.com/DiegoDeav">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/deavila-diego/">LinkedIn</a></li>
+                  </ul>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
